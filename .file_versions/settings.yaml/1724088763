@@ -5,7 +5,7 @@ features_defined: {}
 features_override: {}
 help_improve_mage: null
 latest_version: 0.9.73
-name: mage
+name: marketing
 openai_api_key: null
 pipelines: null
 platform_settings:
@@ -20,52 +20,21 @@ platform_settings:
   openai_api_key: null
   pipelines: null
   platform_settings:
-    emr_config: null
-    features:
-      override: false
-    features_defined: {}
-    features_override: {}
-    help_improve_mage: null
-    latest_version: 0.9.73
-    name: marketing
-    openai_api_key: null
-    pipelines: null
-    platform_settings:
-      projects:
-        analytics-ref:
-          path: analytics_ref/mage
-        default_repo:
-          path: default_repo/mage
-        marketing:
-          path: growth/marketing
-    project_uuid: 3e39811553f743deabc33c411d8615ff
     projects:
       analytics-ref:
-        path: analytics_ref
+        path: analytics_ref/mage
       default_repo:
         path: default_repo/mage
       marketing:
         path: growth/marketing
-    remote_variables_dir: null
-    repo_path: /home/src/platform_template/growth/marketing
-    root_project: false
-    settings:
-      active: true
-      path: growth/marketing
-      uuid: marketing
-    spark_config: null
-    version: 0.9.72
-    workspace_config_defaults: {}
   project_uuid: 3e39811553f743deabc33c411d8615ff
   projects:
     analytics-ref:
-      path: analytics_ref/mage
+      path: analytics_ref
     default_repo:
       path: default_repo/mage
     marketing:
       path: growth/marketing
-    platform_template:
-      path: ''
   remote_variables_dir: null
   repo_path: /home/src/platform_template/growth/marketing
   root_project: false
@@ -82,19 +51,16 @@ projects:
     path: analytics_ref/mage
   default_repo:
     path: default_repo/mage
-  mage: {}
   marketing:
     path: growth/marketing
-  platform_template:
-    path: mage
+  new_project: {} 
 remote_variables_dir: null
-repo_path: /home/src/platform_template/mage
+repo_path: /home/src/platform_template/growth/marketing
 root_project: false
 settings:
   active: true
-  is_project: true
-  is_project_platform: false
-  uuid: mage
+  path: growth/marketing
+  uuid: marketing
 spark_config: null
 version: 0.9.72
 workspace_config_defaults: {}

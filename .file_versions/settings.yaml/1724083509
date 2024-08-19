@@ -1,0 +1,6 @@
+projects:
+  analytics-ref:
+    path: analytics_ref/mage
+  default_repo: {}
+  marketing:
+    path: growth/marketing
